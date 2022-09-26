@@ -3,11 +3,11 @@
   <title>田嘉嘉`BLog</title>
   
   <subtitle>举目见日, 不见长安.</subtitle>
-  <link href="http://tianxinping.github.io/atom.xml" rel="self"/>
+  <link href="https://tuoby.cn/atom.xml" rel="self"/>
   
-  <link href="http://tianxinping.github.io/"/>
+  <link href="https://tuoby.cn/"/>
   <updated>2022-09-25T13:45:57.171Z</updated>
-  <id>http://tianxinping.github.io/</id>
+  <id>https://tuoby.cn/</id>
   
   <author>
     <name>田嘉嘉</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>专升本 500 词</title>
-    <link href="http://tianxinping.github.io/undefined/39a72e1f.html"/>
-    <id>http://tianxinping.github.io/undefined/39a72e1f.html</id>
+    <link href="https://tuoby.cn/undefined/39a72e1f.html"/>
+    <id>https://tuoby.cn/undefined/39a72e1f.html</id>
     <published>2022-09-21T09:32:52.000Z</published>
     <updated>2022-09-25T13:45:57.171Z</updated>
     
@@ -41,8 +41,8 @@
   
   <entry>
     <title>词根词缀第一篇</title>
-    <link href="http://tianxinping.github.io/undefined/13ca4a36.html"/>
-    <id>http://tianxinping.github.io/undefined/13ca4a36.html</id>
+    <link href="https://tuoby.cn/undefined/13ca4a36.html"/>
+    <id>https://tuoby.cn/undefined/13ca4a36.html</id>
     <published>2022-09-20T05:19:16.000Z</published>
     <updated>2022-09-25T12:27:28.892Z</updated>
     
@@ -68,8 +68,8 @@
   
   <entry>
     <title>词根词缀第二篇</title>
-    <link href="http://tianxinping.github.io/undefined/ca7319fc.html"/>
-    <id>http://tianxinping.github.io/undefined/ca7319fc.html</id>
+    <link href="https://tuoby.cn/undefined/ca7319fc.html"/>
+    <id>https://tuoby.cn/undefined/ca7319fc.html</id>
     <published>2022-09-20T04:57:35.000Z</published>
     <updated>2022-09-25T12:27:20.358Z</updated>
     
@@ -91,8 +91,8 @@
   
   <entry>
     <title>阴天</title>
-    <link href="http://tianxinping.github.io/undefined/9520.html"/>
-    <id>http://tianxinping.github.io/undefined/9520.html</id>
+    <link href="https://tuoby.cn/undefined/9520.html"/>
+    <id>https://tuoby.cn/undefined/9520.html</id>
     <published>2022-09-20T04:44:43.000Z</published>
     <updated>2022-09-20T04:56:57.215Z</updated>
     
@@ -110,14 +110,14 @@
     
     
     
-    <category term="生活" scheme="http://tianxinping.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
+    <category term="生活" scheme="https://tuoby.cn/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://tianxinping.github.io/undefined/4a17b156.html"/>
-    <id>http://tianxinping.github.io/undefined/4a17b156.html</id>
+    <link href="https://tuoby.cn/undefined/4a17b156.html"/>
+    <id>https://tuoby.cn/undefined/4a17b156.html</id>
     <published>2022-09-05T07:31:43.750Z</published>
     <updated>2022-09-05T08:22:11.450Z</updated>
     
