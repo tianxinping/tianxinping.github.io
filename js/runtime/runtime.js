@@ -15,9 +15,9 @@ function createtime() {
   1 == String(l).length && (l = "0" + l);
   let g = "";
   (g =
-    r < 18 && r >= 9
-      ? `<img class="boardsign" src title><span class="textTip"> <br> 本站运行了 ${a} 天</span><span id="runtime"> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class="fas fa-heartbeat" style="color:red"></i>`
-      : `<img class="boardsign" src title><span class="textTip"> <br> 本站运行了 ${a} 天</span><span id="runtime"> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class="fas fa-heartbeat" style="color:red"></i>`),
+    r < 22 && r >= 7
+      ? `<img class="boardsign" src="/js/runtime/runtime/白天.png" title="新的一天"><span class="textTip"> <br> 本站运行了 ${a} 天</span><span id="runtime"> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class="fas fa-heartbeat" style="color:red"></i>`
+      : `<img class="boardsign" src="/js/runtime/runtime/夜晚.png" title="太阳下山了，晚安！"><span class="textTip"> <br> 本站运行了 ${a} 天</span><span id="runtime"> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class="fas fa-heartbeat" style="color:red"></i>`),
     document.getElementById("workboard") &&
       (document.getElementById("workboard").innerHTML = g);
 }
