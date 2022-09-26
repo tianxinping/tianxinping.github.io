@@ -2051,6 +2051,11 @@
   </entry>
   <entry>
     <title></title>
+    <url>/manifest.json</url>
+    <content><![CDATA[{"name":"田嘉嘉_Blog","short_name":"田嘉嘉_Blog","theme_color":"#425aef","background_color":"#425aef","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"/img/siteicon/16.png","sizes":"16x16","type":"image/png"},{"src":"/img/siteicon/32.png","sizes":"32x32","type":"image/png"},{"src":"/img/siteicon/48.png","sizes":"48x48","type":"image/png"},{"src":"/img/siteicon/64.png","sizes":"64x64","type":"image/png"},{"src":"/img/siteicon/128.png","sizes":"128x128","type":"image/png"},{"src":"/img/siteicon/144.png","sizes":"144x144","type":"image/png"},{"src":"/img/siteicon/512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
+  </entry>
+  <entry>
+    <title></title>
     <url>/css/custom.css</url>
     <content><![CDATA[/* @font-face {
   font-family: Candyhome;
@@ -2437,8 +2442,39 @@
   </entry>
   <entry>
     <title></title>
-    <url>/manifest.json</url>
-    <content><![CDATA[{"name":"田嘉嘉_Blog","short_name":"田嘉嘉_Blog","theme_color":"#425aef","background_color":"#425aef","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"/img/siteicon/16.png","sizes":"16x16","type":"image/png"},{"src":"/img/siteicon/32.png","sizes":"32x32","type":"image/png"},{"src":"/img/siteicon/48.png","sizes":"48x48","type":"image/png"},{"src":"/img/siteicon/64.png","sizes":"64x64","type":"image/png"},{"src":"/img/siteicon/128.png","sizes":"128x128","type":"image/png"},{"src":"/img/siteicon/144.png","sizes":"144x144","type":"image/png"},{"src":"/img/siteicon/512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
+    <url>/js/runtime/runtime.js</url>
+    <content><![CDATA[var now = new Date();
+function createtime() {
+  var t = new Date("09/05/2022 16:00:00");
+  now.setTime(now.getTime() + 250);
+  var e = (now - t) / 1e3 / 60 / 60 / 24,
+    a = Math.floor(e),
+    n = (now - t) / 1e3 / 60 / 60 - 24 * a,
+    r = Math.floor(n);
+  1 == String(r).length && (r = "0" + r);
+  var s = (now - t) / 1e3 / 60 - 1440 * a - 60 * r,
+    i = Math.floor(s);
+  1 == String(i).length && (i = "0" + i);
+  var o = (now - t) / 1e3 - 86400 * a - 3600 * r - 60 * i,
+    l = Math.round(o);
+  1 == String(l).length && (l = "0" + l);
+  let g = "";
+  (g =
+    r < 18 && r >= 9
+      ? `<img class="boardsign" src title><span class="textTip"> <br> 本站运行了 ${a} 天</span><span id="runtime"> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class="fas fa-heartbeat" style="color:red"></i>`
+      : `<img class="boardsign" src title><span class="textTip"> <br> 本站运行了 ${a} 天</span><span id="runtime"> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class="fas fa-heartbeat" style="color:red"></i>`),
+    document.getElementById("workboard") &&
+      (document.getElementById("workboard").innerHTML = g);
+}
+setInterval(() => {
+  createtime();
+}, 250);
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/js/runtime/runtime.min.js</url>
+    <content><![CDATA[var now=new Date;function createtime(){var t=new Date("09/05/2022 16:00:00");now.setTime(now.getTime()+250);var e=(now-t)/1e3/60/60/24,a=Math.floor(e),n=(now-t)/1e3/60/60-24*a,r=Math.floor(n);1==String(r).length&&(r="0"+r);var s=(now-t)/1e3/60-1440*a-60*r,i=Math.floor(s);1==String(i).length&&(i="0"+i);var o=(now-t)/1e3-86400*a-3600*r-60*i,l=Math.round(o);1==String(l).length&&(l="0"+l);let g="";g=`<img class="boardsign" src title><span class="textTip"> <br> 本站运行了 ${a} 天</span><span id="runtime"> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class="fas fa-heartbeat" style="color:red"></i>`,document.getElementById("workboard")&&(document.getElementById("workboard").innerHTML=g)}setInterval(()=>{createtime()},250);]]></content>
   </entry>
   <entry>
     <title></title>
